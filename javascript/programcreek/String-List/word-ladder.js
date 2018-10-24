@@ -45,4 +45,4 @@ function wordLadder(beginWord, endWord, wordDict) {
     return 0;
 }
 
-console.log(wordLadder('hit', 'cog', new Set(['hot','dot','dog','lot','log'])));
+console.log('The length of the ladder:', wordLadder('hit', 'cog', new Set(['hot','dot','dog','lot','log'])));
